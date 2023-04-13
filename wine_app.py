@@ -69,7 +69,7 @@ def main():
 if uploaded_file is not None:
     file_name = uploaded_file
 else:
-    file_name = "C:\Users\USER\Downloads\New folder\winequalityN.csv"
+    file_name = open(r"C:\Users\USER\Downloads\New folder\winequalityN.csv")
     
     
     
