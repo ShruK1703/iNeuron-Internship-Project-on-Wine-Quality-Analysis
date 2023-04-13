@@ -69,7 +69,7 @@ def main():
 if uploaded_file is not None:
     file_name = uploaded_file
 else:
-    file_name = "C:\Users\USER\Downloads\New folder\trained_model.sav"
+    file_name = "C:\Users\USER\Downloads\New folder\winequalityN.csv"
     
     
     
