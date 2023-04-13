@@ -1,7 +1,7 @@
 pickle-mixin==1.0.2
-pandas @ file:///C:/b/abs_b9kefbuby2/croot/pandas_1677835593760/work
-numpy @ file:///C:/b/abs_datssh7cer/croot/numpy_and_numpy_base_1672336199388/work
-matplotlib @ file:///C:/b/abs_b2d7uv90hg/croot/matplotlib-suite_1677674332463/work
-matplotlib-inline @ file:///C:/ci/matplotlib-inline_1661934094726/work
-seaborn @ file:///C:/b/abs_68ltdkoyoo/croot/seaborn_1673479199997/work
+pandas==1.5.3
+numpy==1.23.5
+matplotlib==3.7.0
+seaborn==0.12.2
 streamlit==1.21.0
+scikit-learn==1.2.1
