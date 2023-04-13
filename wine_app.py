@@ -11,7 +11,7 @@ import streamlit as st
 
 
 #loading the saved model
-loaded_model = pickle.load(open(r'C:\Users\USER\Downloads\New folder\trained_model.sav','rb'))
+loaded_model = pickle.load(open('C:\Users\USER\Downloads\New folder\trained_model.sav','rb'))
 
 #creating a function for prediction
 def wine_quality_prediction(data):
@@ -62,13 +62,7 @@ def main():
     
     st.success(Quality)
     
-    uploaded_file = st.file_uploader(
-    "Choose your database", accept_multiple_files=False)
-if uploaded_file is not None:
-    file_name = uploaded_file
-else:
-    file_name = r"C:\Users\USER\Downloads\New folder\trained_model.sav"
-    
+       
     
 if __name__ == '__main__':
     main()
