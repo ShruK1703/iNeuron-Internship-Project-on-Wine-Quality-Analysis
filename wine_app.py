@@ -11,7 +11,7 @@ import streamlit as st
 
 
 #loading the saved model
-loaded_model = pickle.load(open("C:\Users\USER\trained_model.sav","rb"))
+loaded_model = pickle.load(open("C:\Users\USER\trained_model.sav", "rb", encoding = "latin1"))
 
 #creating a function for prediction
 def wine_quality_prediction(data):
