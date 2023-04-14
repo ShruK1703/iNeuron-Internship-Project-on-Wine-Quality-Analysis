@@ -61,17 +61,7 @@ def main():
         
     
     st.success(Quality)
-    
-    
-    
-    uploaded_file = st.file_uploader(
-    "Choose your database", accept_multiple_files=False)
-if uploaded_file is not None:
-    file_name = uploaded_file
-else:
-    file_name = "C:\Users\USER\Downloads\New folder\trained_model.sav"
-    
-    
+     
     
     
     
