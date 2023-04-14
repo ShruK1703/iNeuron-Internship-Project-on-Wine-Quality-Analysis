@@ -1,6 +1,8 @@
 # iNeuron-Internship-Project-on-Wine-Quality-Analysis
  
  APP link -   https://shruk1703-ineuron-internship-project-on-wine-qu-wine-app-fmfvix.streamlit.app/
+ 
+ 
 WINE QUALTIY ANALYSIS- iNeuron Internship Project
 
 Presented by SHRUTI KHANDELWAL
