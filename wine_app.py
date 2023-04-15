@@ -59,7 +59,7 @@ def main():
     if st.button("Wine Quality Results"):
         Quality = wine_quality_prediction([fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates,alcohol])
         
-    st.sidebar.header("Select Range")
+    
     st.success(Quality)
      
         
