@@ -43,12 +43,12 @@ def main():
     citric_acid = st.slider("Quantity of Citric Acid",0.0,5.0)
     residual_sugar = st.slider("Quantity of Residual Sugar",0.0,20.0)
     chlorides = st.slider("Quantity of Chlorides",0.0,2.0)
-    free_sulfur_dioxide = st.slider("Quantity of Free Sulfur Dioxide",0.0,200.0)
-    total_sulfur_dioxide = st.slider("Quantity of Total Sulfur Dioxide",0.0,300.0)
+    free_sulfur_dioxide = st.slider("Quantity of Free Sulfur Dioxide",0.0,100.0)
+    total_sulfur_dioxide = st.slider("Quantity of Total Sulfur Dioxide",0.0,200.0)
     density = st.slider("Density",0.0,1.0)
     pH = st.slider("Value of pH",0.0,14.0)
     sulphates = st.slider("Quantity of Suplhates",0.0,10.0)
-    alcohol = st.slider("Quantity of alcohol",0.0,50.0)
+    alcohol = st.slider("Quantity of alcohol",0.0,20.0)
     
     
     
