@@ -37,17 +37,17 @@ def main():
     
     
     
-    fixed_acidity = st.text_input("Quantity of Fixed Acidity")
-    volatile_acidity = st.text_input("Quantity of Volatile Acidity")
-    citric_acid = st.text_input("Quantity of Citric Acid")
-    residual_sugar = st.text_input("Quantity of Residual Sugar")
-    chlorides = st.text_input("Quantity of Chlorides")
-    free_sulfur_dioxide = st.text_input("Quantity of Free Sulfur Dioxide")
-    total_sulfur_dioxide = st.text_input("Quantity of Total Sulfur Dioxide")
-    density = st.text_input("Density")
-    pH = st.text_input("Value of pH")
-    sulphates = st.text_input("Quantity of Suplhates")
-    alcohol = st.text_input("Quantity of alcohol")
+    fixed_acidity = st.slider("Quantity of Fixed Acidity",1.0,20.0)
+    volatile_acidity = st.slider("Quantity of Volatile Acidity",0.0,2.0)
+    citric_acid = st.slider("Quantity of Citric Acid",0.0,5.0)
+    residual_sugar = st.slider("Quantity of Residual Sugar",0.0,20.0)
+    chlorides = st.slider("Quantity of Chlorides",0.0,2.0)
+    free_sulfur_dioxide = st.slider("Quantity of Free Sulfur Dioxide",0.0,200.0)
+    total_sulfur_dioxide = st.slider("Quantity of Total Sulfur Dioxide",0.0,300.0)
+    density = st.slider("Density",0.0,1.0)
+    pH = st.slider("Value of pH",0.0,14.0)
+    sulphates = st.slider("Quantity of Suplhates",0.0,10.0)
+    alcohol = st.slider("Quantity of alcohol",0.0,50.0)
     
     
     
@@ -59,7 +59,7 @@ def main():
     if st.button("Wine Quality Results"):
         Quality = wine_quality_prediction([fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates,alcohol])
         
-    
+    st.sidebar.header("Select Range")
     st.success(Quality)
      
         
