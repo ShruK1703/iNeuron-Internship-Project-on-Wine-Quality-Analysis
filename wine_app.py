@@ -32,6 +32,7 @@ def main():
     
     #giving a title
     st.title('Wine Quality Prediction Web App')
+    st.caption('By SHRUTI KHANDELWAL')
     
     #getting the input data from the user
     
